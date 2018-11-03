@@ -1,0 +1,4 @@
+number = int(input("Please enter a number: "))
+reminder = (number % 7)
+print(reminder)
+print("Number 7 fits" , number//7, "times in a number" ,number,".")
