@@ -1,0 +1,3 @@
+number = int(input(“Please enter a number: ”)
+reminder = (number % 7)
+print(reminder)
