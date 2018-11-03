@@ -1,0 +1,9 @@
+scoreA = int(input("Enter score A: "))
+scoreB = int(input("Enter score B: "))
+
+if scoreA == scoreB :
+    print("Tie")
+elif scoreA > scoreB :
+    print ("Score A team wins!!")
+elif scoreA < scoreB :
+    print ("Score B team wins!!")
